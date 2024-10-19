@@ -14,3 +14,4 @@
 -> Docker has volumes,images,container,network
 ->daemon is respossible to run the all the command which was send by the user.
 -> Jdk->Jre->Jvm
+-> Jshell
