@@ -10,3 +10,7 @@
 -> docker start 7db0
 -> docker stop 7db0bad4c4ef
 ->docker pause 7db0bad4c4ef
+-> user will communicate with docker through docker client.
+-> Docker has volumes,images,container,network
+->daemon is respossible to run the all the command which was send by the user.
+-> Jdk->Jre->Jvm
