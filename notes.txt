@@ -20,4 +20,11 @@
 -> java -jar target/docker-demo.jar to run the jar file
 ->docker exec dreamy_greider ls -a or /tmp
 ->docker cp  target/docker-demo.jar dreamy_greider:/tmp
+->docker commit dreamy_greider akhil/docker-demo:v1
+  ->docker run akhil/docker-demo:v1
+->docker commit --change='CMD java -jar /tmp/docker-demo.jar' dreamy_greider akhil/docker-demo:v2
+->docker run akhil/docker-demo:v2
+
+
+
 
