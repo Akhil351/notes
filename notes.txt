@@ -26,6 +26,11 @@
 ->docker run akhil/docker-demo:v2
 ->docker run -p 8080:8080  akhil/docker-demo:v2
 
+-> in Docker file
+FROM openjdk:24-jdk-bullseye
+ADD target/docker-demo.jar docker-demo.jar
+ENTRYPOINT ["java","-jar","/docker-demo.jar"]
+
 
 
 
