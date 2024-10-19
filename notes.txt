@@ -4,3 +4,9 @@
 -> docker images
 ->docker rm 2b43903f3f2d
 ->docker rmi d211f485f2dd
+-> docker create hello-world (note: hello-world is the image name)
+-> docker search hello-world 
+-> docker pull hello-world
+-> docker start 7db0
+-> docker stop 7db0bad4c4ef
+->docker pause 7db0bad4c4ef
