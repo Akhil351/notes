@@ -16,3 +16,5 @@
 -> Jdk->Jre->Jvm
 -> Jshell
 -> docker run -it openjdk:24-jdk-bullseye
+->/exit exit from jshell
+-> java -jar target/docker-demo.jar to run the jar file
