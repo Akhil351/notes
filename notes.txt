@@ -18,5 +18,6 @@
 -> docker run -it openjdk:24-jdk-bullseye
 ->/exit exit from jshell
 -> java -jar target/docker-demo.jar to run the jar file
-->docker exec dreamy_greider ls -a
+->docker exec dreamy_greider ls -a or /tmp
+ ->docker cp  target/docker-demo.jar dreamy_greider:/tmp
 
