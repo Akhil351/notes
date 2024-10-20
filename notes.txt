@@ -34,6 +34,11 @@ ENTRYPOINT ["java","-jar","/docker-demo.jar"]
 ->docker build -t akhil/docker-demo:v3 .
 
 
+->Docker compose (to run multiple containers)
+->docker-compose up --build
+
+
+
 
 
 
