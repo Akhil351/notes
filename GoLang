@@ -1,0 +1,32 @@
+-> Go is a simple,fast and Concurrent Programming Language.
+-> Go is LightWeighted.
+-> https://go.dev/doc/install (install Go).
+->https://gobyexample.com/ (document).
+->go env GOPATH (to find go folder path in our system).
+            Structure:
+
+->go/
+  ->bin
+    ->(executable binaries)
+  ->pkg
+    ->(complied package files)
+  ->src/
+      ->myproject/
+        ->main.go
+        -> Other files
+
+
+->go mod init mylearning
+-> go run main.go (to run the code)
+->In Go, packages are used instead of classes.
+-> if you want to write executable code ,then it must belong to  main package.
+-> fmt is used to print the console(System.out.println() in java to print console).
+
+package main
+import ("fmt")
+// fmt is coming from pkg(package) directory
+func main(){
+	fmt.Println("Welcome to Go Language")
+}
+
+-> package main declares that this files belongs to main package,and it contains main function ,which is entry point for the executable program.
