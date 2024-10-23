@@ -30,3 +30,4 @@ func main(){
 }
 
 -> package main declares that this files belongs to main package,and it contains main function ,which is entry point for the executable program.
+-> fmt.Scan reads until the firstWhite Space character , so if you want read a whole line , you might want to use buifo package's New Scanner
